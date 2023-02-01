@@ -1,0 +1,38 @@
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    align-items: center;
+}
+
+.label {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: 0.0001em solid rgba(112, 112, 112, 0.4);
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.submit {
+    font-size: 0.75em;
+    padding: 0.75em 5em;
+    border: none;
+    border-radius: 0.75em;
+    outline: none;
+    cursor: pointer;
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+}
+
+.submit:disabled {
+    background-color: rgb(115, 123, 140, 0.75);
+    cursor: default;
+}
